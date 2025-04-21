@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(-45deg, #b392c4, #b397d3, #ce97d3, #a9b9c7);
+    background-size: 400% 400%;
+    animation: gradient 13s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*#wrapper {*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*}*/
+
+/*#content {*/
+/*    float: left;*/
+/*    position: relative;*/
+/*    left: -50%;*/
+/*}*/
+
+h1 {
+    font-family: serif;
+}
+
+#page-title {
+    font-family: sans-serif;
+}
+
+.title {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.paragraph {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.nav {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    font-family: monospace;
+}
+
+
