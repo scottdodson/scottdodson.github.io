@@ -2,57 +2,49 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Scott Dodson at GitHub</title>
 </head>
 <body>
 <div id="wrapper">
     <div id="centered-header">
         <header class="page-header">
-            <h1 id="page-title" class="title">Scott Dodson at GitHub</h1>
-            <p id="para" class="paragraph">
-                Welcome to my GitHub presence. I am a career technologist who completed a Bachelor of Science in
-                Computer Science at the University of Washington in 2023. My interests are broad and varied, I
-                love to engage in conversation about anything really. Here on my GitHub I focus on those technical
-                subjects that have my attention, security, systems management, games, and how to make insightful
-                management of technology accessible to a general audience.
-            </p>
-            <nav>
-                <ul id="main-nav" class="nav">
-                    <li><a href=" / ">Home</a></li>
+            <div class="top-bar">
+                <h1 id="page-title" class="title">Scott Dodson at GitHub</h1>
+                <ul class="menu">
+                    <li><a href="./posts ">Posts</a></li>
+                    <li style="float:right"><a class=active href="./index.html ">About</a></li>
                 </ul>
-            </nav>
+            </div>
         </header>
+        <div class="content">
+            <img src="./images/sdd_big.png"
+                 alt="Scott Dodson"
+                 style="display:block;
+                 margin:auto;
+                 max-width:600px;
+                 height:auto;">
+            <p>
+                Welcome to my GitHub presence. I am a career technologist who completed a Bachelor of Science in
+                Computer Science at the University of Washington in 2023.
+            </p>
+            <p> Here on my GitHub I focus on those technical
+                subjects that have my attention, software engineering, security, systems management, games, and how to
+                make insightful management of technology accessible to a general audience.
+            </p>
+            <p>
+                I see opportunity to refine the bridge between human usability and the interwoven complexities of digital
+                systems. There is an inherent instability in the relationship between a user or companies data/processes
+                and the suite of technologies that work with them. Companies update features or twilight functionality.
+                Technology solutions evolve, sometimes very quickly. I am fascinated by the challenge of engineering
+                software and processes that make weathering change simple and coherent for my users, if not seamless and
+                transparent.
+            </p>
+        </div>
     </div>
-    <div class="gallery">
-        <a target="_blank" href="images/apple.jpeg">
-            <img src="images/apple.jpeg" alt="apple" width="3024" height="3024">
-        </a>
-        <div class="desc">an apple</div>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="images/blossom.JPG">
-            <img src="images/blossom.JPG" alt="Forest" width="4032" height="3024">
-        </a>
-        <div class="desc">blossoms</div>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="images/rendering.jpg">
-            <img src="images/rendering.jpg" alt="Northern Lights" width="640" height="640">
-        </a>
-        <div class="desc">rendering</div>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="images/rise_of_the_pharaoh.JPG">
-            <img src="images/rise_of_the_pharaoh.JPG" alt="Mountains" width="1210" height="908">
-        </a>
-        <div class="desc">escape room</div>
+    <div class="bottom-bar">
+        &#169 2025. All Rights Reserved. Scott Dodson
     </div>
 </div>
-
-
 </body>
 </html>
