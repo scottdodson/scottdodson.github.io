@@ -1,0 +1,20 @@
+h1 {
+    font-family: serif;
+    color: orangered;
+}
+
+#page-title {
+    font-family: sans-serif;
+}
+
+.title {
+    font-family: monospace;
+}
+
+.paragraph {
+    font-family: monospace;
+}
+
+.nav {
+    font-family: monospace;
+}
