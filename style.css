@@ -20,49 +20,80 @@ body {
 #wrapper {
     margin: auto;
     width: 80%;
-    padding: 10px;
-}
-
-/*#content {*/
-/*    float: left;*/
-/*    position: relative;*/
-/*    left: -50%;*/
-/*}*/
-
-h1 {
-    font-family: serif;
+    padding: 5px;
+    font-family: monospace;
 }
 
 #page-title {
     font-family: sans-serif;
+    padding-left: 7px;
 }
 
 .title {
     font-family: monospace;
 }
 
-.paragraph {
+.top-bar {
     font-family: monospace;
+    position:fixed;
+    top:0;
+    width: 80%;
+    padding: 7px;
+    color:  white;
+    display: block;
+    background-color: #141212;
 }
 
 .nav {
     font-family: monospace;
 }
 
-div.gallery {
-    margin: 5px;
-    width: 180px;
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #141212;
+}
+
+li {
     float: left;
 }
 
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
+li a {
+    display: block;
+    color: white;
     text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
 }
 
+li a:hover {
+    background-color: #ccc8d1;
+    color: #141212;
+}
 
+.active {
+    background-color: #e2e2e2;
+    color:  #141212;
+}
+
+.content {
+    margin-top: 130px;
+    float: left;
+    position: fixed;
+    width: 80%;
+}
+
+.bottom-bar {
+    position: fixed;
+    margin: 0 auto;
+    display: block;
+    background-color: #141212;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 7px;
+    overflow: hidden;
+    bottom: 0;
+    width: 80%;
+}
