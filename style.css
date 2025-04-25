@@ -56,11 +56,11 @@ body {
     background-color: #141212;
 }
 
-li {
+.menu li {
     float: left;
 }
 
-li a {
+.menu li a {
     display: block;
     color: white;
     text-align: center;
@@ -68,7 +68,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.menu li a:hover {
     background-color: #ccc8d1;
     color: #141212;
 }
