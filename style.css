@@ -44,6 +44,13 @@ body {
     background-color: #141212;
 }
 
+.top-bar a {
+    font-family: sans-serif;
+    color:  white;
+    display: block;
+    background-color: #141212;
+}
+
 .nav {
     font-family: sans-serif;
 }
