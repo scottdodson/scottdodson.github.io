@@ -1,0 +1,3 @@
+product,company,subscription_cost,tax,yearly,monthly,start_date,renewal_date
+AppleTV,Apple,9.99,1.04,False,True,2025-05-01,2025-06-01
+SomeYearly,AllYearLong,200.00,9.20,True,False,2024-06-01,2025-06-01
